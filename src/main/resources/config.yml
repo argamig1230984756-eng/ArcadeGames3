@@ -1,0 +1,22 @@
+# Where players go when a match ends (everyone in that arena, only them).
+#
+# Easiest: put your spawn world's name here (a Multiverse world works fine).
+# It teleports to that world's spawn point.
+spawn-world: "spawn"
+
+# Optional: run a command instead (as CONSOLE). If set, spawn-world is ignored.
+# %player% is replaced with the player's name.
+#   spawn-command: "mvtp %player% spawn"
+#   spawn-command: "spawn %player%"       # EssentialsX
+spawn-command: ""
+
+# ---------------------------------------------------------------- Prop Hunt
+prophunt:
+  # Blocks a hider can randomly START as (one is picked per hider).
+  # Use block names like OAK_LOG, CHEST, DIAMOND_BLOCK. Empty = built-in list.
+  start-blocks: []
+
+  # Blocks hiders may turn into with the Disguise Changer (right-click a block).
+  # Empty = any solid full block (default behaviour).
+  # If you list blocks here, ONLY these can be used.
+  allowed-blocks: []

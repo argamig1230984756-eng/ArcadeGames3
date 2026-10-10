@@ -1,0 +1,14 @@
+name: ArcadeGames
+version: 1.0.0
+main: me.arcade.games.ArcadePlugin
+api-version: '1.21'
+description: Prop Hunt, BlockParty, TNTRun, Party Games and Mini Walls
+commands:
+  arcade:
+    description: Arcade games command
+    aliases: [ag, arcadegame]
+    usage: /arcade help
+permissions:
+  arcade.admin:
+    description: Create and manage arcade arenas
+    default: op
