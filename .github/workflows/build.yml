@@ -15,4 +15,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: ArcadeGames
-          path: target/ArcadeGames.jar
+          path: target/ArcadeGames2.jar
